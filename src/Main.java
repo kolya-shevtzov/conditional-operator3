@@ -19,7 +19,7 @@ public class Main {
             if ((year % 100 != 0) || (year % 400 == 0))
                 System.out.println(year + " год является высокосным");
             else {
-                System.out.println(year + "год не является высокосным");
+                System.out.println(year + "год не является высокоснЫм");
             }
             int deliveryDistance=40;
             if (deliveryDistance <= 20) {System.out.println("потребуетс 1 день");}
